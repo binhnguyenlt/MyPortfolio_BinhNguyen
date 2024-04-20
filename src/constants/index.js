@@ -27,11 +27,16 @@ import {
   Clanguage,
   car,
   autosar,
+  can,
   kubota,
   cybersoft,
   fpt,
   scsk,
-  honda
+  honda,
+  samar,
+  jira,
+  cybermovie,
+  poochcare
 } from "../assets";
 
 export const navLinks = [
@@ -88,6 +93,18 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "C/C++",
+    icon: Clanguage,
+  },
+  {
+    name: "CAN FD",
+    icon: can,
+  },
+  {
+    name: "MBD",
+    icon: matlab,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -205,7 +222,7 @@ const myExperiences = [
     iconBg: "#383E56",
     date: "April 2019 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and Researching agricultural machine's applications using C/C++ and other related technologies like CAN and MBD.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -218,7 +235,7 @@ const myExperiences = [
     iconBg: "#E6DEDD",
     date: "July 2023 - March 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using JavaScript, ReactJS, NodeJS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -231,7 +248,7 @@ const myExperiences = [
     iconBg: "#E6DEDD",
     date: "April - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing applications in Car using related technologies such as CAN, AutoSAR and MBD.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -244,7 +261,7 @@ const myExperiences = [
     iconBg: "#383E56",
     date: "April - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing applications in Car using related technologies such as CAN, AutoSAR and MBD.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -281,9 +298,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Movie Theatre",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Movie Theatre website allows users to browse, select, and purchase tickets for films showing in theaters. It provides showtime information, seat selection, and secure online payment options for convenience.",
     tags: [
       {
         name: "react",
@@ -294,17 +311,18 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "UI Material",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cybermovie,
+    deploy_link: "https://bc-53-capstone-project-movie-duy-binh-git-master-binhnguuyen.vercel.app/",
+    source_code_link: "https://github.com/binhnguuyen/BC53_Capstone_ProjectMovie_Duy_Binh.git",
   },
   {
-    name: "Job IT",
+    name: "JIRA",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "IRA is a project management software used for issue tracking, task management, and agile development. It streamlines collaboration, facilitates planning, and enhances team productivity.",
     tags: [
       {
         name: "react",
@@ -319,13 +337,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: jira,
+    deploy_link: "https://bc53-capstonejira-binh-duy.surge.sh/",
+    source_code_link: "https://github.com/binhnguuyen/BC53_Capstone_JIRA_Duy_Binh.git",
   },
   {
-    name: "Trip Guide",
+    name: "Samar",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Samar is an online learning platform offering a wide range of courses taught by expert instructors. Learners can explore topics at their own pace, gaining new skills and knowledge.",
     tags: [
       {
         name: "nextjs",
@@ -336,12 +355,35 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: samar,
+    deploy_link: "https://cybersamar-v2.vercel.app/",
+    source_code_link: "https://github.com/binhnguuyen/BC53_Samar_NguyenLeTieuBinh.git",
+  },
+  {
+    name: "Pooch Care",
+    description:
+      "Pooch Care offers comprehensive pet services, including grooming, walking, and boarding, ensuring dogs receive top-notch care. With experienced professionals, your furry friend is in safe hands.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: poochcare,
+    deploy_link: "https://wp.w3layouts.com/poochcare/",
+    source_code_link: "https://github.com/binhnguuyen/BC53_Capstone_Binh-Thu.git",
   },
 ];
 
