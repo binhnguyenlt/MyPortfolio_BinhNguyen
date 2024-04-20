@@ -97,10 +97,10 @@ const technologies = [
     name: "C/C++",
     icon: Clanguage,
   },
-  {
-    name: "CAN FD",
-    icon: can,
-  },
+  // {
+  //   name: "CAN FD",
+  //   icon: can,
+  // },
   {
     name: "MBD",
     icon: matlab,
@@ -125,10 +125,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -137,10 +137,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
