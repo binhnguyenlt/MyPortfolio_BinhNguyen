@@ -26,7 +26,12 @@ import {
   matlab,
   Clanguage,
   car,
-  autosar
+  autosar,
+  kubota,
+  cybersoft,
+  fpt,
+  scsk,
+  honda
 } from "../assets";
 
 export const navLinks = [
@@ -192,6 +197,61 @@ const experiences = [
   },
 ];
 
+const myExperiences = [
+  {
+    title: "Embedded Software Programmer",
+    company_name: "Kubota",
+    icon: kubota,
+    iconBg: "#383E56",
+    date: "April 2019 - March 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "CyberSoft",
+    icon: cybersoft,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - March 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "High level Front SE",
+    company_name: "FPT",
+    icon: fpt,
+    iconBg: "#E6DEDD",
+    date: "April - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "High level Front SE",
+    company_name: "Honda",
+    icon: honda,
+    iconBg: "#383E56",
+    date: "April - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -285,4 +345,4 @@ const projects = [
   },
 ];
 
-export { services, serviceEmbedded, technologies, experiences, testimonials, projects };
+export { services, serviceEmbedded, technologies, experiences, myExperiences, testimonials, projects };

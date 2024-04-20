@@ -29,6 +29,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import kubota from "./company/kubota.png";
+import cybersoft from "./company/cybersoft.png";
+import fpt from "./company/fpt.png";
+import scsk from "./company/scsk.png";
+import honda from "./company/honda.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -75,5 +80,10 @@ export {
   matlab,
   Clanguage,
   car,
-  autosar
+  autosar,
+  kubota,
+  cybersoft,
+  fpt,
+  scsk,
+  honda,
 };
