@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { vercel } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,9 +16,13 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deploy_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className='green-pink-gradient p-[3px] rounded-[20px] shadow-card'
+    >
       <Tilt
         options={{
           max: 45,
@@ -33,7 +38,7 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute right-0 bottom-0 flex justify-end m-3 card-img_hover gap-1'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -41,6 +46,16 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
+            <div
+              onClick={() => window.open(deploy_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={vercel}
+                alt='deploy link'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>

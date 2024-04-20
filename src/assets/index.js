@@ -8,6 +8,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import vercel from "./vercel.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -38,11 +39,16 @@ import honda from "./company/honda.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import jira from "./jira.png";
+import cybermovie from "./cybermovie.png";
+import samar from "./samar.png";
+import poochcare from "./poochcare.png";
 
 import matlab from "./matlab.png";
 import Clanguage from "./Clanguage.png";
 import car from "./car.png";
 import autosar from "./autosar.png";
+import can from "./can.png";
 
 export {
   logo,
@@ -55,6 +61,7 @@ export {
   mobile,
   web,
   github,
+  vercel,
   menu,
   close,
   css,
@@ -77,10 +84,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  jira,
+  cybermovie,
+  samar,
+  poochcare,
   matlab,
   Clanguage,
   car,
   autosar,
+  can,
   kubota,
   cybersoft,
   fpt,

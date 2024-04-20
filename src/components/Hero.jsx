@@ -32,8 +32,6 @@ const Hero = () => {
         </div>
       </div>
 
-      <br />
-      <br />
       <ComputersCanvas />
 
       {/* phần tạo ra scroll icon ngay giữa trang */}
