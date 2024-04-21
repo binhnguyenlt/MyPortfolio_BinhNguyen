@@ -8,11 +8,23 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
+  <motion.div
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+    className='green-pink-gradient p-[3px] rounded-[20px] shadow-card'
+  >
+    <Tilt
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+      className='bg-tertiary p-5 rounded-2xl sm:w-[250px] w-full'
+    >
+      {/* <Tilt className='xs:w-[250px] w-full'> */}
+      {/* <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[3px] rounded-[20px] shadow-card'
-    >
+    > */}
       <div
         options={{
           max: 45,
@@ -31,8 +43,8 @@ const ServiceCard = ({ index, title, icon }) => (
           {title}
         </h3>
       </div>
-    </motion.div>
-  </Tilt>
+    </Tilt>
+  </motion.div>
 );
 
 const About = () => {
@@ -83,7 +95,7 @@ const About = () => {
           <br className="sm:block hidden" />
           I'm a quick learner and collaborate closely with clients to create efficient, scalable,
           <br className="sm:block hidden" />
-          and user-friendly solutions that solve real-world problems. 
+          and user-friendly solutions that solve real-world problems.
           <br className="sm:block hidden" />
           Let's work together to bring your ideas to life!
         </motion.p>
