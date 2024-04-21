@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => (
         scale: 1,
         speed: 450,
       }}
-      className='bg-tertiary p-5 rounded-2xl sm:w-[250px] w-full'
+      className='bg-tertiary p-5 rounded-2xl w-[250px] sm:w-[260px] md:w-[260px]  w-full'
     >
       {/* <Tilt className='xs:w-[250px] w-full'> */}
       {/* <motion.div
