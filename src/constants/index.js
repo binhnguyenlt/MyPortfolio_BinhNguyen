@@ -309,7 +309,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
@@ -331,7 +331,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Restapi",
         color: "green-text-gradient",
       },
       {
@@ -353,7 +353,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
@@ -375,7 +375,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
@@ -397,7 +397,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
@@ -419,7 +419,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
