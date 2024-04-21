@@ -43,6 +43,8 @@ import jira from "./jira.png";
 import cybermovie from "./cybermovie.png";
 import samar from "./samar.png";
 import poochcare from "./poochcare.png";
+import fiverr from "./fiverr.png";
+import cyberphone from "./cyberphone.png";
 
 import matlab from "./matlab.png";
 import Clanguage from "./Clanguage.png";
@@ -88,6 +90,8 @@ export {
   cybermovie,
   samar,
   poochcare,
+  fiverr,
+  cyberphone,
   matlab,
   Clanguage,
   car,

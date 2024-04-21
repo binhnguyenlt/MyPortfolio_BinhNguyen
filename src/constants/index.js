@@ -36,7 +36,9 @@ import {
   samar,
   jira,
   cybermovie,
-  poochcare
+  poochcare,
+  fiverr,
+  cyberphone,
 } from "../assets";
 
 export const navLinks = [
@@ -303,7 +305,7 @@ const projects = [
       "Movie Theatre website allows users to browse, select, and purchase tickets for films showing in theaters. It provides showtime information, seat selection, and secure online payment options for convenience.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -325,7 +327,7 @@ const projects = [
       "IRA is a project management software used for issue tracking, task management, and agile development. It streamlines collaboration, facilitates planning, and enhances team productivity.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -333,7 +335,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SCSS",
         color: "pink-text-gradient",
       },
     ],
@@ -344,10 +346,10 @@ const projects = [
   {
     name: "Samar",
     description:
-      "Samar is an online learning platform offering a wide range of courses taught by expert instructors. Learners can explore topics at their own pace, gaining new skills and knowledge.",
+      "Samar is an online learning platform offering a wide range of courses taught by expert instructors. Learners can explore topics at their own pace, gaining new skills and knowledge, for beginners and the experienced",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
@@ -355,7 +357,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
     ],
@@ -369,7 +371,7 @@ const projects = [
       "Pooch Care offers comprehensive pet services, including grooming, walking, and boarding, ensuring dogs receive top-notch care. With experienced professionals, your furry friend is in safe hands.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
@@ -377,13 +379,57 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
     ],
     image: poochcare,
     deploy_link: "https://wp.w3layouts.com/poochcare/",
     source_code_link: "https://github.com/binhnguuyen/BC53_Capstone_Binh-Thu.git",
+  },
+  {
+    name: "Fiverr",
+    description:
+      "Fiverr is an online marketplace platform using React Framework in order to connect freelancers with clients for services ranging from Graphic Design, Web Design to programming, all starting at $5.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UI Material",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fiverr,
+    deploy_link: "https://demo5.cybersoft.edu.vn/",
+    source_code_link: "https://demo5.cybersoft.edu.vn/",
+  },
+  {
+    name: "Cyberphone",
+    description:
+      "The Cyberphone website is an online platform dedicated to showcasing and selling a variety of mobile phones, accessories, and related gadgets, providing purchase options for customers.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UI Material",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cyberphone,
+    deploy_link: "https://cyber-shopping-cart-js.vercel.app/",
+    source_code_link: "https://demo5.cybersoft.edu.vn/",
   },
 ];
 
