@@ -30,8 +30,7 @@ const Navbar = () => {
             href="/src/assets/logoNoBackground.svg"
           />
           <p
-            className={`${active === true ? "text-white" : "text-secondary"}
-          text-[24px] font-bold cursor-pointer flex hover:text-white`}
+            className= "text-secondary text-[24px] font-bold cursor-pointer flex hover:text-white"
           >
             Binh Nguyen &nbsp;
             <span className='sm:block hidden'>| Portfolio</span>
