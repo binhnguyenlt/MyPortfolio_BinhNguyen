@@ -29,19 +29,22 @@ const Navbar = () => {
             className='w-9 h-9 object-contain'
             href="/src/assets/logoNoBackground.svg"
           />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+          <p
+            className={`${active === true ? "text-white" : "text-secondary"}
+          text-[24px] font-bold cursor-pointer flex hover:text-white`}
+          >
             Binh Nguyen &nbsp;
             <span className='sm:block hidden'>| Portfolio</span>
           </p>
         </Link>
-        
+
         {/* phần này khi screen rộng sẽ hiện ra thanh navbar ngang */}
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${active === nav.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                } hover:text-white text-[20px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -65,7 +68,7 @@ const Navbar = () => {
                   className={`${active === link.title ?
                     "text-white" :
                     "text-secondary"
-                    } font-poppins font-medium cursor-pointer text-[16px]
+                    } font-poppins font-medium cursor-pointer text-[20px]
               `}
                   onClick={() => {
                     setToggle(!toggle);
